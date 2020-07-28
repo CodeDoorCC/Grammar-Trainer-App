@@ -1,0 +1,47 @@
+
+/* 
+Colors:
+- #5DADE2
+- #EC7063
+- #FBFCFC
+- #424949
+- #A569BD
+
+*/
+body {
+    background-color: #5DADE2;
+}
+
+header {
+    width: auto;
+    
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    
+    text-align: center;
+
+    color: #FBFCFC;
+}
+
+main {
+    color: #FBFCFC;
+
+    text-align: center;
+
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+footer {
+    border-top: solid 3px #424949;
+
+    text-align: center;
+
+    font-style: italic;
+
+    padding-top: 20px;
+}
