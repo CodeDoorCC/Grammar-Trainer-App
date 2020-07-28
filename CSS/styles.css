@@ -25,15 +25,22 @@ header {
     color: #FBFCFC;
 }
 
-main {
+main {    
     color: #FBFCFC;
 
     text-align: center;
 
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 section {
     margin-bottom: 50px;
+    flex-basis: 33.333333%;
 }
 
 footer {
