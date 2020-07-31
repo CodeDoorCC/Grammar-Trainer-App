@@ -36,11 +36,31 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 section {
-    margin-bottom: 50px;
-    flex-basis: 33.333333%;
+    margin: 15px;
+    flex-basis: 15%;
+    background: #EC7063;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 5px solid #424949;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    border-radius: 25px;
+    border: unset;
+    opacity: 0.6;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 footer {
