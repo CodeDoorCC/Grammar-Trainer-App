@@ -12,27 +12,32 @@
         <meta name="keywords" content="german, grammar, practice">
         <!-- <link rel="shortcut icon" href="http://example.com/favicon.ico"> -->
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <script src="javascript.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
         <header>
-            <h1>German Grammar Trainer</h1>
+            <h1> <i class="em em-de" aria-role="presentation" aria-label="Germany Flag"></i> German Grammar Trainer <i class="em em-de" aria-role="presentation" aria-label="Germany Flag"></i> </h1>
             <h3>Practice your German skills!</h3>
         </header>
 
         <main>
-            <section>
-                <p id="front"></p>
-                <button id="buttonDer">der</button>
-                <button id="buttonDie">die</button>
-                <button id="buttonDas">das</button>
-            </section>
+            <div id="container">
 
+                <section>
+                    <p id="front"></p>
+                    <button id="buttonDer">der</button>
+                    <button id="buttonDie">die</button>
+                    <button id="buttonDas">das</button>
+                </section>
 
-            <div id="deckButtons">
-                <button id="previous" onclick="previousCard()">Previous Card</button>
+                <div id="deckButtons">
+                    <button id="previous" onclick="previousCard()">Previous Card</button>
                 <button id="next" onclick="nextCard()">Next Card</button>
+                </div>
+
             </div>
 
         </main> <br><br><br>
