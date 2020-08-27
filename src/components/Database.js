@@ -1,87 +1,87 @@
 // Data export
 export default [
     {
-        noun: 'Jahr',
+        name: 'Jahr',
         gender: 'das',
     },
     {
-        noun: 'Beispiel',
+        name: 'Beispiel',
         gender: 'das',
     },
     {
-        noun: 'Zeit',
+        name: 'Zeit',
         gender: 'die',
     },
     {
-        noun: 'Frau',
+        name: 'Frau',
         gender: 'die',
     },
     {
-        noun: 'Mensch',
+        name: 'Mensch',
         gender: 'der',
     },
     {
-        noun: 'Kind',
+        name: 'Kind',
         gender: 'das',
     },
     {
-        noun: 'Tag',
+        name: 'Tag',
         gender: 'der',
     },
     {
-        noun: 'Mann',
+        name: 'Mann',
         gender: 'der',
     },
     {
-        noun: 'Land',
+        name: 'Land',
         gender: 'das',
     },
     {
-        noun: 'Frage',
+        name: 'Frage',
         gender: 'die',
     },
     {
-        noun: 'Haus',
+        name: 'Haus',
         gender: 'das',
     },
     {
-        noun: 'Fall',
+        name: 'Fall',
         gender: 'der',
     },
     {
-        noun: 'Leute',
+        name: 'Leute',
         gender: 'die',
     },
     {
-        noun: 'Arbeit',
+        name: 'Arbeit',
         gender: 'die',
     },
     {
-        noun: 'Prozent',
+        name: 'Prozent',
         gender: 'das',
     },
     {
-        noun: 'Hand',
+        name: 'Hand',
         gender: 'die',
     },
     {
-        noun: 'Stadt',
+        name: 'Stadt',
         gender: 'der',
     },
     {
-        noun: 'Herr',
+        name: 'Herr',
         gender: 'der',
     },
     {
-        noun: 'Teil',
+        name: 'Teil',
         gender: 'der',
     },
     {
-        noun: 'Problem',
+        name: 'Problem',
         gender: 'das',
     },
     {
-        noun: 'Welt',
+        name: 'Welt',
         gender: 'die',
     },
 ];
