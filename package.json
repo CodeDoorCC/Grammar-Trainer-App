@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+<<<<<<< HEAD
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -14,6 +15,11 @@
     "react-scripts": "3.4.3",
     "reactstrap": "^8.5.1",
     "redux": "^4.0.5"
+=======
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+>>>>>>> 0f68f672cda455a3b5142d56f96ea65f52d79b2c
   },
   "scripts": {
     "start": "react-scripts start",

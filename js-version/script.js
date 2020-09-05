@@ -91,7 +91,7 @@ function previousCard(){
 //     wrongButton2.style.backgroundColor = "red";
 // })
 
-// // 
+// //
 
 // var correctButton6 = document.getElementById("correct6")
 
@@ -114,7 +114,7 @@ function previousCard(){
 //     wrongButton5.style.backgroundColor = "red";
 // })
 
-// // 
+// //
 
 // var correctButton9 = document.getElementById("correct9")
 
@@ -137,7 +137,7 @@ function previousCard(){
 //     wrongButton8.style.backgroundColor = "red";
 // })
 
-// // 
+// //
 
 // var correctButton12 = document.getElementById("correct12")
 
@@ -160,7 +160,7 @@ function previousCard(){
 //     wrongButton11.style.backgroundColor = "red";
 // })
 
-// // 
+// //
 
 // var correctButton15 = document.getElementById("correct15")
 
@@ -183,7 +183,7 @@ function previousCard(){
 //     wrongButton14.style.backgroundColor = "red";
 // })
 
-// // 
+// //
 
 // var correctButton18 = document.getElementById("correct18")
 
@@ -206,7 +206,7 @@ function previousCard(){
 //     wrongButton17.style.backgroundColor = "red";
 // })
 
-// // 
+// //
 
 // var correctButton21 = document.getElementById("correct21")
 
@@ -229,4 +229,4 @@ function previousCard(){
 //     wrongButton20.style.backgroundColor = "red";
 // })
 
-// To have all words functional in hard-coding mode, need to add all the new buttons. 
+// To have all words functional in hard-coding mode, need to add all the new buttons.
