@@ -1,22 +1,45 @@
-import React from 'react';
+import React, { useState } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText,
+} from "reactstrap";
 
-export default () => {
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return(
+  const toggle = () => setIsOpen(!isOpen);
 
-        <div>
-            <footer>
-             <p>
-               This project is a <a href="https://codedoor.com/" target="_blank">CodeDoor</a> collaboration. Click <a href="https://github.com/CodeDoorCC/Grammar-Trainer-App" target="_blank">here</a> for the repository! 
-             </p>
-            </footer>
-        </div>
-    )
+  return (
+    <div>
+      <Navbar color="info" light expand="md">
+        <NavbarBrand href="/">Author</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <NavLink href="https://codedoor.com/">CodeDoor</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/CodeDoorCC/Grammar-Trainer-App">
+                GitHub
+              </NavLink>
+            </NavItem>
+          </Nav>
+          <NavbarText>CONTACT US</NavbarText>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
+};
 
-}
-
-
-
-
-
-
+export default Example;

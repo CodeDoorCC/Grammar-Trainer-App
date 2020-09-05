@@ -1,41 +1,41 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #5DADE2;
-  font-family: 'Montserrat', sans-serif;
+  padding-top: 55px;
+  background-color: #5dade2;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
   width: auto;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   text-align: center;
-  color: #FBFCFC;
 }
 
-main {    
-  color: #FBFCFC;
+main {
   text-align: center;
-  margin-bottom: 180px;
-
 }
 
 .section {
   margin: 15px auto;
-  background: #EC7063;
+  background: #ec7063;
   padding: 10px 30px;
   border-radius: 25px;
   border: 5px solid #424949;
   width: 200px;
-  
 }
 
 .container {
   margin: 0px auto;
   max-width: 500px;
   text-align: center;
+}
 
+.cardImg {
+  width: 80%;
+  height: 400px;
 }
 
 h2 {
@@ -57,17 +57,11 @@ footer {
   border-top: solid 3px #424949;
   text-align: center;
   font-style: italic;
-  padding-top: 20px;
 }
-
-
-
 
 .deckButtons {
   min-width: 100%;
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .previous {
@@ -81,7 +75,6 @@ footer {
 .next {
   float: right;
   /* margin-right: 450px; */
-  padding: 2px;
   text-align: center;
   width: 95px;
 }
