@@ -1,9 +1,9 @@
 
 @BenRamins Notes
 
-Note - The app needs to have a German mini-keyboard (or at least the specific German characters) in the browser to work with people who don't have a German keyboard setup on their machine. 
+Note - The app needs to have a German mini-keyboard (or at least the specific German characters) in the browser to work with people who don't have a German keyboard setup on their machine.
 
-Note - Some of the nouns are already in the plural (example: die Leute), or if the word simply doesn't have a plural, in which case the plural field in the database will be NULL. How can we set it up so that in those cases, the exercise for that word's plural isn't shown or even taken out of the queue completely? 
+Note - Some of the nouns are already in the plural (example: die Leute), or if the word simply doesn't have a plural, in which case the plural field in the database will be NULL. How can we set it up so that in those cases, the exercise for that word's plural isn't shown or even taken out of the queue completely?
 
 Note - Related to the note above, we would probably also need a native German speaker to go through all the plurals to make sure they make sense. For example, grammatically "Wasser" has a plural, "Wasser". But, I have no idea if a native speaker would consider the word to have a plural. Another identical example might be "Zucker".
 

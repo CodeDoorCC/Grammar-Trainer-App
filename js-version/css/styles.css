@@ -1,5 +1,5 @@
 
-/* 
+/*
 Colors:
 - #5DADE2
 - #EC7063
@@ -16,18 +16,18 @@ body {
 
 header {
     width: auto;
-    
-    
+
+
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
-    
+
     text-align: center;
 
     color: #FBFCFC;
 }
 
-main {    
+main {
     color: #FBFCFC;
 
     text-align: center;
@@ -51,7 +51,7 @@ section {
     border: 5px solid #424949;
 
     width: 200px;
-    
+
 }
 
 #container {
