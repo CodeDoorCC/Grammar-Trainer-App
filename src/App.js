@@ -6,15 +6,6 @@ import Footer from "./components/Footer";
 import Database from "./components/Database";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody, 
-  CardTitle,
-  CardSubtitle,
-  Button,
-} from "reactstrap";
 
 function App() {
   return (

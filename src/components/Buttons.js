@@ -1,16 +1,9 @@
 import React from "react";
 import ButtonCard from "./ButtonCard";
+import { generateKey } from "../shared/utils";
 import "../App.css";
 
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-} from "reactstrap";
+import { Card, CardImg, CardBody, CardTitle, CardSubtitle, Button } from "reactstrap";
 
 export default (props) => {
   return (
@@ -54,9 +47,9 @@ export default (props) => {
       <br />
       <br /> <br />
       {props.data &&
-        props.data.map((noun, index) => (
-          <ButtonCard key={index} name={noun.name} gender={noun.gender} />
-        ))}
+        props.data.map((noun, index) => {
+          return <ButtonCard key={generateKey(`${index}${noun.name}`)} name={noun.name} gender={noun.gender} />;
+        })}
     </div>
   );
 };

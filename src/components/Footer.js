@@ -1,20 +1,7 @@
 import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, NavbarText } from "reactstrap";
 
-const Example = (props) => {
+const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -30,9 +17,7 @@ const Example = (props) => {
               <NavLink href="https://codedoor.com/">CodeDoor</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/CodeDoorCC/Grammar-Trainer-App">
-                GitHub
-              </NavLink>
+              <NavLink href="https://github.com/CodeDoorCC/Grammar-Trainer-App">GitHub</NavLink>
             </NavItem>
           </Nav>
           <NavbarText>CONTACT US</NavbarText>

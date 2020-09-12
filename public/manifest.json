@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "grammar-trainer",
+  "name": "grammar-trainer",
   "icons": [
     {
       "src": "favicon.ico",
