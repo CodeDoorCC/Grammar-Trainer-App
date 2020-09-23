@@ -5,14 +5,13 @@ import "../App.css";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
   CardSubtitle,
   Button,
 } from "reactstrap";
 
-export default (props) => {
+export default function Buttons(props) {
   return (
     <div>
       <main>
@@ -43,11 +42,10 @@ export default (props) => {
           <div className="deckButtons">
             <Button outline color="info" className="previous">
               previous
-            </Button>{" "}
+            </Button>
             <Button outline color="info" className="next">
-              {" "}
               next
-            </Button>{" "}
+            </Button>
           </div>
         </div>
       </main>
@@ -59,4 +57,4 @@ export default (props) => {
         ))}
     </div>
   );
-};
+}

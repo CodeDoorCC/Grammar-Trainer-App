@@ -7,14 +7,10 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   NavbarText,
 } from "reactstrap";
 
-const Example = (props) => {
+const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -42,4 +38,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Footer;

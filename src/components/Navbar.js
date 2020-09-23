@@ -14,7 +14,7 @@ import {
   NavbarText,
 } from "reactstrap";
 
-const Example = (props) => {
+const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
